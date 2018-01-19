@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MasonryDemo/masonryTest/UpdateConstraintsController.m"
+            timestampString = "538046225.3743891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UpdateConstraintsController viewDidLoad]"
+                  moduleName = "MasonryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tianqi/Movies/githubDemo/learnMasonry/MasonryDemo/MasonryDemo/masonryTest/UpdateConstraintsController.m"
+                  timestampString = "538045822.821704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[UpdateConstraintsController viewDidLoad]_block_invoke"
+                  moduleName = "MasonryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tianqi/Movies/githubDemo/learnMasonry/MasonryDemo/MasonryDemo/masonryTest/UpdateConstraintsController.m"
+                  timestampString = "538045822.826478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MasonryDemo/masonryTest/UpdateConstraintsController.m"
+            timestampString = "538046225.406058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-updateViewConstraints"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UpdateConstraintsController updateViewConstraints]"
+                  moduleName = "MasonryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tianqi/Movies/githubDemo/learnMasonry/MasonryDemo/MasonryDemo/masonryTest/UpdateConstraintsController.m"
+                  timestampString = "538045822.856496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__52-[UpdateConstraintsController updateViewConstraints]_block_invoke"
+                  moduleName = "MasonryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tianqi/Movies/githubDemo/learnMasonry/MasonryDemo/MasonryDemo/masonryTest/UpdateConstraintsController.m"
+                  timestampString = "538045822.864136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -17,6 +17,7 @@
 		85496AA52011850F00767397 /* TQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AA42011850F00767397 /* TQBaseViewController.m */; };
 		85496AA82011909C00767397 /* BaseMasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AA72011909C00767397 /* BaseMasonryController.m */; };
 		85496AAB2011E37200767397 /* UpdateConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AAA2011E37200767397 /* UpdateConstraintsController.m */; };
+		85FB857B201306EA00E2FAF9 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB857A201306EA00E2FAF9 /* RemakeContraintsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		85496AA72011909C00767397 /* BaseMasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMasonryController.m; sourceTree = "<group>"; };
 		85496AA92011E37200767397 /* UpdateConstraintsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateConstraintsController.h; sourceTree = "<group>"; };
 		85496AAA2011E37200767397 /* UpdateConstraintsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateConstraintsController.m; sourceTree = "<group>"; };
+		85FB8579201306EA00E2FAF9 /* RemakeContraintsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemakeContraintsController.h; sourceTree = "<group>"; };
+		85FB857A201306EA00E2FAF9 /* RemakeContraintsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemakeContraintsController.m; sourceTree = "<group>"; };
 		89D4FCC894929B7873BFB445 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F367BB7A96348366A1B709B0 /* libPods-MasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BCB6CA7D3A47AD8D4D3758 /* Pods-MasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				85496AA72011909C00767397 /* BaseMasonryController.m */,
 				85496AA92011E37200767397 /* UpdateConstraintsController.h */,
 				85496AAA2011E37200767397 /* UpdateConstraintsController.m */,
+				85FB8579201306EA00E2FAF9 /* RemakeContraintsController.h */,
+				85FB857A201306EA00E2FAF9 /* RemakeContraintsController.m */,
 			);
 			path = masonryTest;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				85496AA52011850F00767397 /* TQBaseViewController.m in Sources */,
 				85496A912011829A00767397 /* ViewController.m in Sources */,
 				85496A9C2011829A00767397 /* main.m in Sources */,
+				85FB857B201306EA00E2FAF9 /* RemakeContraintsController.m in Sources */,
 				85496A8E2011829A00767397 /* AppDelegate.m in Sources */,
 				85496AA82011909C00767397 /* BaseMasonryController.m in Sources */,
 				85496AAB2011E37200767397 /* UpdateConstraintsController.m in Sources */,

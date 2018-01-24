@@ -12,6 +12,10 @@
 #import "UpdateConstraintsController.h"
 #import "RemakeContraintsController.h"
 #import "TotalUpdateController.h"
+#import "CompositeController.h"
+#import "AspectFitController.h"
+#import "BasicAnimatedController.h"
+#import "ScrollViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) UITableView *tableView;
@@ -37,6 +41,10 @@
                        [[UpdateConstraintsController alloc] initWithTitle:@"Masonry动画更新约束"],
                        [[RemakeContraintsController alloc] initWithTitle:@"Masonry动画重新添加约束"],
                        [[TotalUpdateController alloc] initWithTitle:@"整体动画更新约束"],
+                       [[CompositeController alloc] initWithTitle:@"复合view循环约束"],
+                       [[AspectFitController alloc] initWithTitle:@"AspectFitController"],
+                       [[BasicAnimatedController alloc] initWithTitle:@"基础动画"],
+                       [[ScrollViewController alloc] initWithTitle:@"scrollview"]
                        ];
     
    

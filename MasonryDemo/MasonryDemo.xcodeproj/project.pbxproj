@@ -23,6 +23,7 @@
 		85FB85842016D28C00E2FAF9 /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB85832016D28C00E2FAF9 /* AspectFitController.m */; };
 		85FB85872016E78900E2FAF9 /* BasicAnimatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB85862016E78800E2FAF9 /* BasicAnimatedController.m */; };
 		85FB858A2018345B00E2FAF9 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB85892018345B00E2FAF9 /* ScrollViewController.m */; };
+		85FB858D2019A4D900E2FAF9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB858C2019A4D900E2FAF9 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		85FB85862016E78800E2FAF9 /* BasicAnimatedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimatedController.m; sourceTree = "<group>"; };
 		85FB85882018345B00E2FAF9 /* ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
 		85FB85892018345B00E2FAF9 /* ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		85FB858B2019A4D900E2FAF9 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		85FB858C2019A4D900E2FAF9 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		89D4FCC894929B7873BFB445 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F367BB7A96348366A1B709B0 /* libPods-MasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BCB6CA7D3A47AD8D4D3758 /* Pods-MasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				85FB85862016E78800E2FAF9 /* BasicAnimatedController.m */,
 				85FB85882018345B00E2FAF9 /* ScrollViewController.h */,
 				85FB85892018345B00E2FAF9 /* ScrollViewController.m */,
+				85FB858B2019A4D900E2FAF9 /* TableViewController.h */,
+				85FB858C2019A4D900E2FAF9 /* TableViewController.m */,
 			);
 			path = masonryTest;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				85FB85842016D28C00E2FAF9 /* AspectFitController.m in Sources */,
 				85FB85872016E78900E2FAF9 /* BasicAnimatedController.m in Sources */,
 				85FB857B201306EA00E2FAF9 /* RemakeContraintsController.m in Sources */,
+				85FB858D2019A4D900E2FAF9 /* TableViewController.m in Sources */,
 				85496A8E2011829A00767397 /* AppDelegate.m in Sources */,
 				85FB85812015CACB00E2FAF9 /* CompositeController.m in Sources */,
 				85FB857E2015757200E2FAF9 /* TotalUpdateController.m in Sources */,

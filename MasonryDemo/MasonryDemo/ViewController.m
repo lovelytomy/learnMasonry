@@ -16,6 +16,7 @@
 #import "AspectFitController.h"
 #import "BasicAnimatedController.h"
 #import "ScrollViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) UITableView *tableView;
@@ -44,7 +45,8 @@
                        [[CompositeController alloc] initWithTitle:@"复合view循环约束"],
                        [[AspectFitController alloc] initWithTitle:@"AspectFitController"],
                        [[BasicAnimatedController alloc] initWithTitle:@"基础动画"],
-                       [[ScrollViewController alloc] initWithTitle:@"scrollview"]
+                       [[ScrollViewController alloc] initWithTitle:@"scrollview"],
+                       [[TableViewController alloc] initWithTitle:@"masonry约束UITableView"]
                        ];
     
    

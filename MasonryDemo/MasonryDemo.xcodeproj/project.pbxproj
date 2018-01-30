@@ -17,6 +17,8 @@
 		85496AA52011850F00767397 /* TQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AA42011850F00767397 /* TQBaseViewController.m */; };
 		85496AA82011909C00767397 /* BaseMasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AA72011909C00767397 /* BaseMasonryController.m */; };
 		85496AAB2011E37200767397 /* UpdateConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85496AAA2011E37200767397 /* UpdateConstraintsController.m */; };
+		85F970D52020161800036203 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F970D42020161800036203 /* TestCell.m */; };
+		85F970D82020162800036203 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F970D72020162800036203 /* TestModel.m */; };
 		85FB857B201306EA00E2FAF9 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB857A201306EA00E2FAF9 /* RemakeContraintsController.m */; };
 		85FB857E2015757200E2FAF9 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB857D2015757200E2FAF9 /* TotalUpdateController.m */; };
 		85FB85812015CACB00E2FAF9 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FB85802015CACB00E2FAF9 /* CompositeController.m */; };
@@ -43,6 +45,10 @@
 		85496AA72011909C00767397 /* BaseMasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMasonryController.m; sourceTree = "<group>"; };
 		85496AA92011E37200767397 /* UpdateConstraintsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateConstraintsController.h; sourceTree = "<group>"; };
 		85496AAA2011E37200767397 /* UpdateConstraintsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateConstraintsController.m; sourceTree = "<group>"; };
+		85F970D32020161800036203 /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		85F970D42020161800036203 /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		85F970D62020162800036203 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		85F970D72020162800036203 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		85FB8579201306EA00E2FAF9 /* RemakeContraintsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemakeContraintsController.h; sourceTree = "<group>"; };
 		85FB857A201306EA00E2FAF9 /* RemakeContraintsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemakeContraintsController.m; sourceTree = "<group>"; };
 		85FB857C2015757200E2FAF9 /* TotalUpdateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TotalUpdateController.h; sourceTree = "<group>"; };
@@ -123,6 +129,8 @@
 		85496AA22011843500767397 /* masonryTest */ = {
 			isa = PBXGroup;
 			children = (
+				85F970D2202015F100036203 /* model */,
+				85F970D1202015E700036203 /* view */,
 				85496AA62011909C00767397 /* BaseMasonryController.h */,
 				85496AA72011909C00767397 /* BaseMasonryController.m */,
 				85496AA92011E37200767397 /* UpdateConstraintsController.h */,
@@ -143,6 +151,24 @@
 				85FB858C2019A4D900E2FAF9 /* TableViewController.m */,
 			);
 			path = masonryTest;
+			sourceTree = "<group>";
+		};
+		85F970D1202015E700036203 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				85F970D32020161800036203 /* TestCell.h */,
+				85F970D42020161800036203 /* TestCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		85F970D2202015F100036203 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				85F970D62020162800036203 /* TestModel.h */,
+				85F970D72020162800036203 /* TestModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		B9D2992F5BE6B18015252E5B /* Frameworks */ = {
@@ -281,9 +307,11 @@
 				85FB858A2018345B00E2FAF9 /* ScrollViewController.m in Sources */,
 				85FB85842016D28C00E2FAF9 /* AspectFitController.m in Sources */,
 				85FB85872016E78900E2FAF9 /* BasicAnimatedController.m in Sources */,
+				85F970D82020162800036203 /* TestModel.m in Sources */,
 				85FB857B201306EA00E2FAF9 /* RemakeContraintsController.m in Sources */,
 				85FB858D2019A4D900E2FAF9 /* TableViewController.m in Sources */,
 				85496A8E2011829A00767397 /* AppDelegate.m in Sources */,
+				85F970D52020161800036203 /* TestCell.m in Sources */,
 				85FB85812015CACB00E2FAF9 /* CompositeController.m in Sources */,
 				85FB857E2015757200E2FAF9 /* TotalUpdateController.m in Sources */,
 				85496AA82011909C00767397 /* BaseMasonryController.m in Sources */,
